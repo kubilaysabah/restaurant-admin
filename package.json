@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^9.6.3",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "tailwindcss": "^2.2.19",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "autoprefixer": "^10.4.2",
+    "axe-core": "^4.3.5",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-plugin-react": "^7.28.0",
+    "postcss": "^8.4.5",
+    "typescript": "^4.5.4"
+  }
+}
