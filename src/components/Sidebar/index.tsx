@@ -40,7 +40,7 @@ const Sidebar: FC = (): ReactElement => {
                 </ul>
             </div>
             {active && (
-                <div className="w-60 bg-gray-100 p-5">
+                <div className="flex-1 sm:flex-auto sm:w-60 bg-gray-100 p-5">
                     <h2 className="text-3xl font-medium mb-5">{Menu[0].title}</h2>
                     <ul>
                         {Menu[0].children.map(child => (

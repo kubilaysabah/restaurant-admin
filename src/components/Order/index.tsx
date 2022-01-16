@@ -42,16 +42,16 @@ const Order: FC<OrderCardProps> = ({
                 </li>
             </ul>
             <div className="lg:flex lg:items-center my-5">
-                <div>
+                <div className="w-ful mb-2 sm:mb-0 sm:w-auto sm:mr-2">
                     <h4 className="text-gray-500 font-medium">Ordered 
                         <span className="ml-2 lg:ml-0 lg:block">Items</span>
                     </h4>
                 </div>
-                <div>
+                <div className="w-full sm:w-auto">
                     <ul className="md:flex md:flex-wrap md:items-center -mx-3">
                         {rest.items.map(item => (
                             <li className="px-3 mb-2" key={uniqid()}>
-                                <span className="bg-gray-200 font-medium py-2 px-5 flex items-center whitespace-nowrap">
+                                <span className="bg-gray-200 font-medium py-2 px-5 flex items-center">
                                     {item.name} X {item.count}
                                 </span>
                             </li>

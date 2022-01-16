@@ -258,7 +258,7 @@ const CreateOrder: FC = (): ReactElement => {
                             </div>
                          </header>
 
-                         <main className="bg-gray-100 py-3 pl-5 pr-10">
+                         <main className="bg-gray-100 p-3 sm:pl-5 sm:pr-10">
                              <div className="flex items-center justify-between">
                                  <div>
                                      <label className="font-semibold sm:text-2xl">Total Amount</label>
